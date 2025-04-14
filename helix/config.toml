@@ -1,0 +1,23 @@
+theme = "gruvbox_dark_hard"
+
+
+[editor]
+line-number = "relative"
+true-color = true
+end-of-line-diagnostics = "hint"
+popup-border = "all"
+clipboard-provider = "x-clip"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
