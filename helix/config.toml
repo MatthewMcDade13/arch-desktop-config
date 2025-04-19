@@ -16,6 +16,10 @@ select = "underline"
 [editor.file-picker]
 hidden = false
 
+[editor.indent-guides]
+render = true
+rainbow-option = "normal"
+
 
 [editor.lsp]
 display-messages = true
