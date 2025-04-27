@@ -7,6 +7,7 @@ true-color = true
 end-of-line-diagnostics = "hint"
 popup-border = "all"
 clipboard-provider = "x-clip"
+bufferline = "multiple"
 
 [editor.cursor-shape]
 insert = "bar"
@@ -25,3 +26,6 @@ rainbow-option = "normal"
 display-messages = true
 display-inlay-hints = true
 
+
+[editor.inline-diagnostics]
+cursor-line = "warning"
