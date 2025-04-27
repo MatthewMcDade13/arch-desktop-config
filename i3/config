@@ -53,7 +53,8 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec kitty 
+bindsym $mod+Return exec ghostty
+
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -195,7 +196,7 @@ bindsym $mod+Shift+b exec "brightnessctl s 25-"
 
 bindsym $mod+r mode "resize"
 
-exec --no-startup-id xscreensaver
+exec --no-startup-id xscreensaver --no-splash
 exec --no-startup-id redshift -c ~/.config/redshift/redshift.conf
 
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
